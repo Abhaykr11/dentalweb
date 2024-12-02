@@ -285,3 +285,173 @@
 .form-container button:hover {
     background-color: rgb(78, 140, 172);
 }
+
+/* Oral health programs */
+.oral-health-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #ffffff;
+  }
+  
+  .oral-health-header h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .oral-health-header p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 40px;
+  }
+  
+  .oral-health-grid {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .program-item {
+    text-align: center;
+    max-width: 300px;
+  }
+  
+  .program-item .icon img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+  }
+  
+  .program-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .program-item p {
+    font-size: 0.9rem;
+    color: #666;
+  }
+
+
+  /* Our team section  */
+  /* General styling */
+.team-section {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .team-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .team-section p {
+    font-size: 1rem;
+    color: #777;
+    margin-bottom: 40px;
+  }
+  
+  /* Cards styling */
+  .team-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    width: 300px;
+    /* transition: transform 0.3s ease; */
+  }
+  
+  /* .card:hover {
+    transform: translateY(-10px);
+  } */
+  
+  .card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  .card-content {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .card-content p {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .card-content h4 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .social-icons a {
+    color: #37b0a2;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: #555;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .footer-column {
+    flex: 1;
+    padding: 0 15px;
+  }
+  
+  .footer-column h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-column p {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .footer-social {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .footer-social a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+  }
+  
+  .footer-social a:hover {
+    color: rgb(55, 176, 162);
+  }
+  
