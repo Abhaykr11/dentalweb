@@ -1,0 +1,287 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navbar styles */
+.navbar {
+    height: 72px; 
+    width: 100%;
+    background-color: rgb(91, 170, 201);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+/* Logo styles */
+.nav-logo {
+    height: 30px;
+    width: 10px;
+    position: relative;
+    left: 138px;
+}
+
+.logo {
+    background-image: url(Assets/Dental.png);
+    height: 50px;
+    width: 130px;
+    background-size: contain; /* Ensures image fits inside the container */
+    background-repeat: no-repeat; /* Prevents repeating the image */
+    box-sizing: border-box;
+}
+
+.menu-icon{
+    position: relative;
+    right: 236px;
+
+}
+.menu-logo{
+    background-image: url(Assets/menu.png);
+    height: 50px;
+    width: 130px;
+    background-size: contain; /* Ensures image fits inside the container */
+    background-repeat: no-repeat; /* Prevents repeating the image */
+    box-sizing: border-box;
+}
+
+/*Doctor image*/
+.secdiv{
+    height: 750px;
+    width: 100%;
+    background-color: rgb(33, 153, 161);
+}
+
+.doctor{
+    background-image: url(Assets/Doctor.png);
+    height: 750px;
+    width: 650px;
+    background-size: cover;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 150px;
+}
+
+.helphead{
+    color: black;
+    position: relative;
+    left: 900px;
+    bottom: 600px;
+    font-size: 60px;
+    font-family: sans-serif;
+
+}
+
+.toothtxt{
+    color: black;
+    position: relative;
+    left: 800px;
+    bottom: 600px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-style: italic;
+
+}
+
+/* Grid container */
+.grid-container {
+    display: flex;
+    /* display: table-row; */
+    grid-template-columns: auto auto auto auto;
+    gap: 0px;
+    background-color: white;
+    padding: 0px;
+  }
+  
+  .grid-container > div {
+    background-color:rgb(78, 199, 164);
+    border: 1px solid black;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .gridimg{
+    position: relative;
+    left: 100px;
+  }
+  
+  p .para{
+    font-size: 16px;
+  }
+
+  .main div{
+    flex: 1;
+ }
+ /* General container */
+.container {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Card style for the first paragraph */
+.card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Grid layout for the second part */
+.grid-containers {
+    display: flex;
+    /* display: grid; */
+    grid-template-columns: 1fr 1fr;
+    gap: 0px;
+
+    
+}
+
+/* Style for each grid item */
+.grid-item {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.grid-item h4 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.grid-item p {
+    font-size: 16px;
+    color: #555;
+}
+
+.grid-item img {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    margin-top: 10px;
+}
+
+/* Responsive design for mobile */
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* secton 4 */
+#grid-containers1 {
+    display: flex;
+    justify-content: space-between; /* Ensures the two divs are on opposite sides */
+    align-items: flex-start; /* Aligns the items to the top */
+    gap: 20px; /* Optional: adds space between the two divs */
+}
+
+#sec4div {
+    background-color: red;
+    padding-left: 60px;
+    margin-top: 60px;
+    margin-left: 70px; /* Move 70px to the right */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1; /* Allow this div to take remaining space */
+}
+
+#sec4img {
+    display: flex;
+    flex-wrap: wrap; /* Allows images to wrap to the next line */
+    gap: 10px; /* Optional: space between images */
+    flex: 1; /* Allow this div to take remaining space */
+}
+
+#sec4img img {
+    width: 48%; /* Ensures two images fit in each row */
+    margin-bottom: 10px; /* Optional: space between rows */
+    object-fit: cover; /* Optional: maintains aspect ratio of images */
+}
+
+/* Section 5 */
+/* Main Section Styles */
+.main-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(55, 176, 162); /* Background color updated */
+    height: auto;
+}
+
+.sec5 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1200px;
+    gap: 20px;
+}
+
+/* Image Container */
+.sec5img {
+    display: flex;
+    gap: 10px;
+    flex: 1;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.sec5img img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+/* Form Container */
+.form-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Space between textboxes and button */
+    max-width: 600px;
+}
+
+/* Input and Button Styling */
+.form-container input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    max-width: 200px; /* Limit input width */
+}
+
+.form-container button {
+    padding: 10px 20px;
+    background-color: rgb(91, 170, 201);
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form-container button:hover {
+    background-color: rgb(78, 140, 172);
+}
